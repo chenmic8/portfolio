@@ -4,8 +4,6 @@ import ProjectCard from "../components/ProjectCard";
 const Landing = () => {
   return (
     <>
-    
-
       <Header
         title={"Landing"}
         text={"text"}
