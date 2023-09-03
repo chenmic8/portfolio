@@ -4,14 +4,15 @@ import ProjectCard from "../components/ProjectCard";
 const Landing = () => {
   return (
     <>
+    
+
       <Header
         title={"Landing"}
         text={"text"}
         subtext={"subtext"}
         image='https://c4.wallpaperflare.com/wallpaper/480/585/181/iu-k-pop-hd-wallpaper-preview.jpg'
       />
-      <div>
-        <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+      <div className="flex flex-row px-20 py-16 gap-5">
         <ProjectCard
           link={"https://www.adhamdannaway.com/"}
           image={
@@ -19,7 +20,7 @@ const Landing = () => {
           }
           title={"Project Title"}
           description={"short project description"}
-        />
+          />
         <ProjectCard
           link={"https://www.adhamdannaway.com/"}
           image={

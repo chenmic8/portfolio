@@ -13,10 +13,13 @@ const ProjectCard = ({
 }: ProjectCardContent) => {
   return (
     <>
-      <a href={link}>
-        <img src={image} alt={title} />
-        <h5>{title}</h5>
-        <p>{description}</p>
+      <a href={link} className='flex flex-col bg-crust rounded-md p-2'>
+        <img src={image} alt={title} className="rounded-md" />
+        <div className="px-4 py-2">
+
+        <h5 className='text-text text-lg'>{title}</h5>
+        <p className='text-subtext0'>{description}</p>
+        </div>
       </a>
     </>
   );
